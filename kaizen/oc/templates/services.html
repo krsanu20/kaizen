@@ -1,0 +1,527 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+	{% load static %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>KAIZEN</title>
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="{%static 'css/style-starter.css' %}">
+  <!-- Template CSS -->
+  <link href="//fonts.googleapis.com/css?family=Muli:300,300i,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
+
+</head>
+<body>
+
+<!--/top-header-content-->
+<section class="w3l-top-header-content">
+	<div class="hny-top-menu">
+		<div class="top-hd">
+			<div class="container-fluid">
+				<div class="row">
+					<ul class="social-top col-md-7">
+						<li class="log-link mr-3"><a class="sign-in"  href="{% url 'register' %}"><span class="fa fa-user"></span>JOIN US</a></li>
+						<li><a href="https://www.facebook.com/kaizenonlineclasses/"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://www.instagram.com/kaizenonlineclasses/ "><span class="fa fa-instagram"></span></a> </li>
+						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fa fa-vimeo"></span></a> </li>
+						<li>
+							<a href="#">
+								<span class="fa fa-linkedin"></span>
+							</a>
+						</li>
+					</ul>
+					<ul class="accounts col-md-5">
+						<li class="top_li"><span class="fa fa-mobile"></span><a href="tel:+91 9110183693">+91
+								9110183693</a>
+						</li>
+
+						<li class="top_li mr-lg-0"><span class="fa fa-envelope-o"></span><a href="kaizenonlineclasses@gmail.com">Need help? Contact Us </a>
+
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+<!--//top-header-content-->
+
+<!--w3l-banner-slider-main-->
+<section class="w3l-banner-slider-main w3l-inner-page-main">
+    <div class="breadcrumb-infhny">
+      <header class="top-headerhny">
+        <!--/nav-->
+        <nav class="navbar navbar-expand-lg navbar-light fill">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <label class="lohny"><img src="{%static 'images/logo.png'%}" alt="">KAIZEN</label></img>
+            <!-- if logo is image enable this   
+              <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+              </a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-lg-auto ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{%url 'index' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'services' %}">Courses</a>
+                </li>
+				  <li class="nav-item">
+                  <a class="nav-link" href="{% url 'login' %}">E-LIBRARY</a>
+                </li>
+				  <li class="nav-item">
+                  <a class="nav-link" href="{% url 'register' %}">Register</a>
+                </li>
+  
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                </li>
+              </ul>
+  
+            </div>
+            <form action="#" method="post" class="d-flex searchhny-form">
+              <input type="search" placeholder="Search Here..." required="required">
+              <button type="submit"><span class="fa fa-search" aria-hidden="true"></span></button>
+            </form>
+          </div>
+        </nav>
+        <!--//nav-->
+      </header>
+      <!-- /breadcrumbs-->
+      <div class="container">
+          <nav aria-label="breadcrumb" class="breadcrumb-info">
+            <h2 class="hny-title text-center">Courses</h2>
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Courses</li>
+            </ol>
+          </nav>
+        </div>
+            <!-- //breadcrumbs-->
+    </div>
+    <!--//banner-slider-->
+  </section>
+  
+
+  	<section class="features-6">
+  		<div class="features6-block py-5">
+  			<div class="container py-lg-5">
+  				<div class="row title-content">
+  					<div class="col-lg-4 title-left">
+  						<h3 class="hny-title">What We Provide</h3>
+  					</div>
+  					<div class="col-lg-8 title-info">
+  						<p><h7><b>WE PROVIDE AFFORDABLE ONLINE LEARNING FOR STUDENT OF CLASS 8,9,10 AT AFFORDABLE AND CHEAPEST PRICE. WITH US LEARNING IS A FUN.</b></h7>.</p>
+  					</div>
+  				</div>
+  				<div class="features6-grids text-center mt-5">
+					<img src="{%static '/images/bg22.jpg' %}" class="img-fluid" alt="">
+
+					<div class="three-grids d-grid grid-columns-3">
+							<div class="grid">
+								<div class="icon">
+									<span class="fa fa-id-card-o" aria-hidden="true"></span>
+								</div>
+								<div class="icon-info">
+									<h4><a href="#">Trusted Teaching</a></h4>
+									<p><h5>Trusted teaching by trusted teachers for better future of students</h5></p>
+								</div>			
+							</div>
+							<div class="grid">
+								<div class="icon">
+									<span class="fa fa-pencil-square-o" aria-hidden="true"></span>
+								</div>
+								<div class="icon-info">
+									<h4><a href="#">Learning into Practice</a></h4>
+									<p><h5>We bring learning into practice and fun with us</h5></p>
+								</div>			
+							</div>
+							<div class="grid">
+								<div class="icon">
+									<span class="fa fa-graduation-cap" aria-hidden="true"></span>
+								</div>
+								<div class="icon-info">
+									<h4><a href="#">
+											Personalize Learning
+											</a></h4>
+									<p><h5>We focus on each and every student individually</h5></p>
+								</div>					
+							</div>	
+						</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- features-4 -->
+
+<section class="w3l-services-2">
+	<!-- /content-6-section -->
+	<div class="services-2-mian py-5">
+		<div class="container py-lg-5">
+			<div class="row title-content">
+				<div class="col-lg-4 title-left">
+					<h3 class="hny-title">Online Courses</h3>
+				</div>
+				<div class="col-lg-8 title-info">
+				</div>
+			</div>
+			<div class="welcome-grids row">
+				<div class="col-lg-4 col-md-6 course-grid">
+					<div class="course-grid-inf">
+						<a href="#"><img src="{%static 'images/p1.jpg' %}" class="img-fuild" alt=""></a>
+						<div class="course-content">
+							<div class="course-info">
+								<a href="{%url 'register' %}" class="course-titlegulp-wrapper">
+									<h3 class="course-title">CLASS 8 &#8211; Science & Maths </h3>
+								</a>
+							</div>
+							<div class="course-divider">
+								<!--<div class="course-meta grid"><span class="course-students" title=""><span
+											class="fa fa-user" aria-hidden="true"></span> 46</span>
+									<span class="course-reviews" title=""><span class="fa fa-thumbs-o-up"
+											aria-hidden="true"></span> 14</span>
+
+								</div>-->
+								<a href="{%url 'register' %}"><button class="price-course btn"> INR 2200 </button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 course-grid">
+
+					<div class="course-grid-inf">
+						<a href="#"><img src="{%static 'images/img2.jpg' %}" class="img-fuild" alt=""></a>
+						<div class="course-content">
+							<div class="course-info">
+
+								<a href="{%url 'register' %}" class="course-titlegulp-wrapper">
+									<h3 class="course-title">CLASS 9 : SCIENCE & MATHS</h3>
+								</a>
+							</div>
+							<div class="course-divider">
+								<!--<div class="course-meta grid"><span class="course-students" title=""><span
+											class="fa fa-user" aria-hidden="true"></span> 36</span>
+									<span class="course-reviews" title=""><span class="fa fa-thumbs-o-up"
+											aria-hidden="true"></span> 24</span>
+
+								</div>-->
+								<a href="{%url 'register' %}"><button class="price-course btn">INR 2500 </button></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-4 col-md-6 course-grid">
+					<div class="course-grid-inf">
+						<a href="#"><img src="{%static 'images/img3.jpg' %}" class="img-fuild" alt=""></a>
+						<div class="course-content">
+							<div class="course-info">
+								<a href="{%url 'register' %}" class="course-titlegulp-wrapper">
+									<h3 class="course-title">CLASS 10: SCIENCE AND MATHS</h3>
+								</a>
+							</div>
+							<div class="course-divider">
+								<!--<div class="course-meta grid"><span class="course-students" title=""><span
+											class="fa fa-user" aria-hidden="true"></span> 56</span>
+									<span class="course-reviews" title=""><span class="fa fa-thumbs-o-up"
+											aria-hidden="true"></span> 44</span>-->
+
+								</div>
+							<a href="{%url 'register' %}"><button class="price-course btn"> INR 3000 </button></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--<div class="col-lg-4 col-md-6 course-grid">
+					<div class="course-grid-inf">
+						<a href="#"><img src="assets/images/p4.jpg" class="img-fuild" alt=""></a>
+						<div class="course-content">
+							<div class="course-info">
+								<h6><a class="course-instructor" href="#"> Brie Larsson</a></h6>
+								<a href="#" class="course-titlegulp-wrapper">
+									<h3 class="course-title">Mastering Web Developer Interview Code</h3>
+								</a>
+							</div>
+							<div class="course-divider">
+								<div class="course-meta grid"><span class="course-students" title=""><span
+											class="fa fa-user" aria-hidden="true"></span> 46</span>
+									<span class="course-reviews" title=""><span class="fa fa-thumbs-o-up"
+											aria-hidden="true"></span> 44</span>
+
+								</div>
+								<button class="price-course btn"> $300 </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 course-grid">
+					<div class="course-grid-inf">
+						<a href="#"><img src="assets/images/p8.jpg" class="img-fuild" alt=""></a>
+						<div class="course-content">
+							<div class="course-info">
+								<h6><a class="course-instructor" href="#"> Brie Larsson</a></h6>
+								<a href="#" class="course-titlegulp-wrapper">
+									<h3 class="course-title">Photoshop For T-shirt Design: For Beginners</h3>
+								</a>
+							</div>
+							<div class="course-divider">
+								<div class="course-meta grid"><span class="course-students" title=""><span
+											class="fa fa-user" aria-hidden="true"></span> 36</span>
+									<span class="course-reviews" title=""><span class="fa fa-thumbs-o-up"
+											aria-hidden="true"></span> 34</span>
+
+								</div>
+								<button class="price-course btn"> $200 </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 course-grid">
+					<div class="course-grid-inf">
+						<a href="#"><img src="assets/images/p6.jpg" class="img-fuild" alt=""></a>
+						<div class="course-content">
+							<div class="course-info">
+								<h6><a class="course-instructor" href="#"> Brie Larsson</a></h6>
+								<a href="#" class="course-titlegulp-wrapper">
+									<h3 class="course-title">Beginner to Expert Guide for Consignment</h3>
+								</a>
+							</div>
+							<div class="course-divider">
+								<div class="course-meta grid"><span class="course-students" title=""><span
+											class="fa fa-user" aria-hidden="true"></span> 36</span>
+									<span class="course-reviews" title=""><span class="fa fa-thumbs-o-up"
+											aria-hidden="true"></span> 34</span>
+
+								</div>
+								<button class="price-course btn"> $300 </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+
+			<!-- /pagination-->
+			<!--<div class="pagination p1">
+				<ul>
+					<a href="#">
+						<li> <span class="fa fa-angle-double-left" aria-hidden="true"></span></li>
+					</a>
+					<a class="is-active" href="#">
+						<li>1</li>
+					</a>
+					<a href="#">
+						<li>2</li>
+					</a>
+					<a href="#">
+						<li>3</li>
+					</a>
+					<a href="#">
+						<li>4</li>
+					</a>
+					<a href="#">
+						<li>5</li>
+					</a>
+					<a href="#">
+						<li>6</li>
+					</a>
+					<a href="#">
+						<li><span class="fa fa-angle-double-right" aria-hidden="true"></span></li>
+					</a>
+				</ul>
+			</div>
+			 //pagination
+		</div>
+	</div>
+</section>-->
+			<br>
+			<br>
+			<br>
+			<br>
+			<section>
+				<div class="container">
+					<p align="left">
+		<br align="left" class="testimonial"><br><i>In this lockdown period, we were unable to join any offline coaching institute.</br> Then one of my friends advised me to join Kaizen Classes.<br>I was very impressed with the teachers there in the demo itself and decided to join it. Sir and Ma'am both explain the concept very deeply and easily. It's fun studying there. .</i>.
+	<div class="img-box"><img src="{%static 'images/c2.png' %}" alt=""></img> </div>
+	</p>
+	<p align="left"><h5>ANMOL</h5></p>
+	<p align="left">SHARDA GLOBAL SCHOOL, CLASS 10</p>
+
+</div>
+			</section>
+			<br><br>
+<!-- //courses -->
+<!-- footer -->
+<section class="w3l-footer-16">
+    <div class="w3l-footer-16-main py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 column">
+                    <div class="row">
+                        <div class="col-md-8 column">
+
+                                <a class="logo-2" href="index.html">
+									<label class="lohny-2"><img src="{%static 'images/logo.png'%}" alt="">KAIZEN</label></img></a>
+                           
+                            <div class="ad-text-inf">
+                                <p><span class="color-hny">Address :</span> RATU ROAD,RANCHI</p>
+                             </div>
+                             <div class="ad-text-inf">
+                                    <p><span class="color-hny">Email :</span> <a href="mailto:kaizenonlineclasses@gmail.com">kaizenonlineclasses@gmail.com</a></p>
+                                 </div>
+                                 <div class="ad-text-inf">
+                                        <p><span class="color-hny">Phone :</span> <a href="tel:+91 9110183693">+91
+                                                9110183693</a></p>
+                                     </div>
+                        </div>
+                        <!--<div class="col-md-4 column">
+                            <h3>Pages</h3>
+                            <ul class="footer-gd-16">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Courses</a></li>
+								<li><a href="#">Blog</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 column column3 mt-lg-0 mt-4">
+                    <h3>Articles</h3>
+                    <ul class="list-unstyled d-flex flex-wrap">
+                        <li class="">
+                            <div class="row">
+                                <a class="col-md-5 col-4" href="#">
+                                    <img class="rounded img-fluid img-responsive" src="assets/images/bg1.jpg"
+                                        alt="image">
+                                </a>
+                                <div class="col pl-0">
+                                    <a class="footer-small-text" href="#">Lorem ipsum dolor sit amet adipiscin elit</a>
+                                    <div class="text-sub-small">Feb 20th</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mt-md-0 mt-2">
+                            <div class="row my-2 my-md-3">
+                                <a class="col-md-5 col-4" href="#">
+                                    <img class="rounded img-fluid img-responsive" src="assets/images/bg3.jpg"
+                                        alt="image">
+                                </a>
+                                <div class="col pl-0">
+                                    <a class="footer-small-text" href="#">Cras at nunc sagittis, suscipit dolor</a>
+                                    <div class="text-sub-small">Feb 22nd</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 column column4 mt-lg-0 mt-4">
+                    <h3>Newsletter </h3>
+                    <div class="end-column">
+                        <h4>Subscribe Here Now</h4>
+                        <form action="#" class="subscribe" method="post">
+                            <input type="email" name="email" placeholder="Email Address" required="">
+                            <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                        </form>
+                        <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex below-section justify-content-between align-items-center pt-4 mt-5">
+                <div class="columns text-lg-left text-center">
+                    <p>© 2020 Eduline. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
+                            W3Layouts</a>
+                    </p>
+                </div>
+                <div class="columns-2 mt-md-0 mt-3">
+                    <ul class="social">
+                        <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                        </li>
+                        <li><a href="#linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                        </li>
+                        <li><a href="#twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                        </li>
+                        <li><a href="#google"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                        </li>
+                        <li><a href="#github"><span class="fa fa-github" aria-hidden="true"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+</section>
+<!-- //footer -->
+</body>
+
+</html>
+
+<script src="{%static 'js/jquery-3.3.1.min.js' %}"></script>
+<!-- disable body scroll which navbar is in active -->
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<!-- disable body scroll which navbar is in active -->
+<!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
+<script src="{%static 'assets/js/bootstrap.min.js' %}"></script>
